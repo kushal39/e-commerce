@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>KP Shop</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><h1> KP Shop </h1></div>
+        <ul class="menu">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">New Arrivals</a></li>
+            <li><a href="">Fashion</a></li>
+            <li><a href="">Login</a></li>
+            <li><a href="">Signup</a></li>
+            <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+
+        </div>
+        
+
+    </nav>
+    <section class="content">
+        <h1> New Arrivals For Men And Women </h1>
+        <p> The Best Men Fashion Arrivals</p>
+        <button> Shop Now</button>
+        <img src="img/shopping.jpg">
+    </section>
+
+    <h1 class="pheading"> Our Latest Product</h1>
+
+    <section class="sec">
+        <div class="product">
+
+            <div class="card">
+                <div class="img"><img src="img/menshoes.png" alt=""> </div>
+                <div class="desc">Men</div>
+                <div class="title">Men Shoe</div>
+                <div class="box">
+                    <div class="price">$20</div>
+                    <button class="btn"> Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="img/womensandels.png" alt=""> </div>
+                <div class="desc">Women</div>
+                <div class="title">Women Shoe</div>
+                <div class="box">
+                    <div class="price">$20</div>
+                    <button class="btn"> Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="img/laptopbags.png" alt=""> </div>
+                <div class="desc">Both</div>
+                <div class="title">Laptop Bags</div>
+                <div class="box">
+                    <div class="price">$20</div>
+                    <button class="btn"> Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="img/menbags.png" alt=""> </div>
+                <div class="desc">Men</div>
+                <div class="title">Men Bags</div>
+                <div class="box">
+                    <div class="price">$20</div>
+                    <button class="btn"> Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="img/travelbags.png" alt=""> </div>
+                <div class="desc">Both</div>
+                <div class="title">Travel Bags</div>
+                <div class="box">
+                    <div class="price">$20</div>
+                    <button class="btn"> Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="img/menwatchs.png" alt=""> </div>
+                <div class="desc">Men</div>
+                <div class="title">Men Watch</div>
+                <div class="box">
+                    <div class="price">$20</div>
+                    <button class="btn"> Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="img/womenwatchs.png" alt=""> </div>
+                <div class="desc">Men</div>
+                <div class="title">Women Watch</div>
+                <div class="box">
+                    <div class="price">$20</div>
+                    <button class="btn"> Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="img/womenbags.png" alt=""> </div>
+                <div class="desc">Women</div>
+                <div class="title">Women Bags</div>
+                <div class="box">
+                    <div class="price">$20</div>
+                    <button class="btn"> Buy Now</button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+       <p> Copyright@KushalPoudel2022</p>
+    </footer>
+
+    <script>
+        $(".menu-btn").click(function (){
+            $(".navbar .menu").toggleClass("active");
+            $(".menu-btn i").toggleClass("active");
+        });
+    </script>
+    
+    
+</body>
+</html>
